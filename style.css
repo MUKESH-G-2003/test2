@@ -1,0 +1,62 @@
+body{
+    background-image: url(image/4kstud.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid;
+    width: 400px;
+    margin: auto;
+    background-image: url(image/students.jpg);
+    background-size: cover;
+    border: 5px solid white;
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+}
+
+label, input, select, .divbutton{
+    margin: 0px 20px;
+}
+
+.divbutton{
+    display: flex;
+    margin: 40px;
+}
+
+.button1, .button2{
+    flex-direction: row;
+    flex-grow: 1;
+    height: 30px;
+    border-radius: 10px;
+    color: aliceblue;
+    border-color: 2px solid black;
+}
+
+.button1{
+    background-color:green;
+}
+
+.button1:hover{
+    background-color: darkred;
+}
+
+.button2{
+    background-color:indianred;
+}
+
+.button2:hover{
+    background-color: darkred;
+}
+
+input:focus{
+    background-color:khaki;
+    height: 30px;
+}
+
